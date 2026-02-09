@@ -7,3 +7,13 @@ data/
 __pycache__/
 *.pyc
 release/
+monitor/
+archive/
+.serena/
+.venv/
+web_interface/test-results/
+monitor/
+archive/
+.serena/
+.venv/
+web_interface/test-results/
