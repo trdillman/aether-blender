@@ -1,0 +1,9 @@
+.grepai/
+node_modules/
+web_interface/node_modules/
+web_interface/dist/
+generated_addons/
+data/
+__pycache__/
+*.pyc
+release/

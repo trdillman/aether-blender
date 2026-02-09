@@ -1,0 +1,34 @@
+{
+  "id": "tst_012_soak_50_prompts",
+  "description": "TST-012 soak baseline manifest for repeated protocol execution.",
+  "protocol": {
+    "version": "1.0",
+    "done": true,
+    "final_message": "TST-012 manifest run complete.",
+    "meta": {
+      "requires_gate_verification": false
+    },
+    "steps": [
+      {
+        "id": "python_seed",
+        "type": "PYTHON",
+        "description": "Emit deterministic soak payload",
+        "payload": {
+          "mode": "safe",
+          "code": "label = 'TST012_SOAK_MARKER'\nprint(label)"
+        }
+      }
+    ]
+  },
+  "assertions": {
+    "events": {
+      "requireEventTypes": [
+        "protocol_python"
+      ]
+    }
+  },
+  "options": {
+    "requireActiveRpcSession": false,
+    "timeoutMs": 120000
+  }
+}

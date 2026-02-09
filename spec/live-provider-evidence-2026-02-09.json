@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-02-09T06:05:45.204Z",
+  "method": "GET /api/health via local server process (server/index.js -> runOrchestrator.getHealth -> llmService.pingProvider)",
+  "request": {
+    "url": "http://127.0.0.1:8787/api/health",
+    "http_status": 200
+  },
+  "result": {
+    "ok": true,
+    "status": "ready",
+    "timestamp": "2026-02-09T06:05:45.204Z",
+    "llm": {
+      "ok": true,
+      "provider": "anthropic",
+      "model": "GLM-4.7",
+      "message": "LLM provider ping succeeded."
+    },
+    "blender": {
+      "ok": true,
+      "message_excerpt": "Blender 4.5.4 LTS (details truncated in evidence artifact)"
+    }
+  },
+  "redactions": {
+    "api_keys": "not present in captured payload",
+    "authorization_headers": "not logged",
+    "provider_request_body": "not logged"
+  },
+  "attempted_commands": [
+    "Start-Job { Set-Location server; node index.js }",
+    "Invoke-WebRequest http://127.0.0.1:8787/api/health"
+  ],
+  "notes": [
+    "Live provider call completed through existing server/provider path.",
+    "No secret material was captured in this evidence file."
+  ]
+}

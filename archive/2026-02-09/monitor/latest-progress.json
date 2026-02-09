@@ -1,0 +1,288 @@
+﻿{
+    "timestamp":  "2026-02-08T22:23:26.3155302-05:00",
+    "active_process_count":  30,
+    "active_processes":  [
+                             {
+                                 "Id":  13648,
+                                 "ProcessName":  "codex",
+                                 "StartTime":  "\/Date(1770413150583)\/",
+                                 "CPU":  75.59375
+                             },
+                             {
+                                 "Id":  143148,
+                                 "ProcessName":  "codex",
+                                 "StartTime":  "\/Date(1770577415371)\/",
+                                 "CPU":  230.484375
+                             },
+                             {
+                                 "Id":  33604,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577643608)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  40436,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770579278446)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  55044,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577572812)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  55264,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577474291)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  56972,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770579283033)\/",
+                                 "CPU":  0.03125
+                             },
+                             {
+                                 "Id":  65116,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577657014)\/",
+                                 "CPU":  0.046875
+                             },
+                             {
+                                 "Id":  65168,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770594097850)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  76436,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770579280099)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  82704,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770594251957)\/",
+                                 "CPU":  0.046875
+                             },
+                             {
+                                 "Id":  95216,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770583874137)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  96424,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770583663101)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  107540,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770583763991)\/",
+                                 "CPU":  0.03125
+                             },
+                             {
+                                 "Id":  108472,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577494306)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  113684,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577512512)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  115424,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770594146908)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  121120,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770579278668)\/",
+                                 "CPU":  0.03125
+                             },
+                             {
+                                 "Id":  128584,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577727414)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  136552,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577452979)\/",
+                                 "CPU":  0.03125
+                             },
+                             {
+                                 "Id":  139716,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770579279924)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  146576,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577742225)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  154540,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577697798)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  159340,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577769796)\/",
+                                 "CPU":  0
+                             },
+                             {
+                                 "Id":  159420,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577540459)\/",
+                                 "CPU":  0.03125
+                             },
+                             {
+                                 "Id":  166932,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577586680)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  172936,
+                                 "ProcessName":  "codex-as-mcp",
+                                 "StartTime":  "\/Date(1770577614455)\/",
+                                 "CPU":  0.015625
+                             },
+                             {
+                                 "Id":  528,
+                                 "ProcessName":  "node",
+                                 "StartTime":  "\/Date(1770583664711)\/",
+                                 "CPU":  1.078125
+                             },
+                             {
+                                 "Id":  828,
+                                 "ProcessName":  "node",
+                                 "StartTime":  "\/Date(1770413171028)\/",
+                                 "CPU":  0.6875
+                             },
+                             {
+                                 "Id":  6604,
+                                 "ProcessName":  "node",
+                                 "StartTime":  "\/Date(1770579275918)\/",
+                                 "CPU":  0.109375
+                             }
+                         ],
+    "recent_files":  [
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\monitor\\ntfy-progress-state.json",
+                             "LastWriteTime":  "\/Date(1770607396507)\/",
+                             "Length":  64
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\monitor\\ntfy-heartbeat.log",
+                             "LastWriteTime":  "\/Date(1770607396505)\/",
+                             "Length":  733441
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\monitor\\progress-log.ndjson",
+                             "LastWriteTime":  "\/Date(1770607106312)\/",
+                             "Length":  1714491
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\monitor\\latest-progress.json",
+                             "LastWriteTime":  "\/Date(1770607106310)\/",
+                             "Length":  15433
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\tests\\blender-session-audit.test.js",
+                             "LastWriteTime":  "\/Date(1770594368734)\/",
+                             "Length":  3272
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\tests\\executor-node-tree.test.js",
+                             "LastWriteTime":  "\/Date(1770594216493)\/",
+                             "Length":  6450
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\spec\\execution-backlog.md",
+                             "LastWriteTime":  "\/Date(1770594124309)\/",
+                             "Length":  7169
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\blenderSessionManager.js",
+                             "LastWriteTime":  "\/Date(1770584058490)\/",
+                             "Length":  11245
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\constants.js",
+                             "LastWriteTime":  "\/Date(1770584045066)\/",
+                             "Length":  1542
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\runOrchestrator.js",
+                             "LastWriteTime":  "\/Date(1770583838752)\/",
+                             "Length":  24918
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\spec\\execution-log.md",
+                             "LastWriteTime":  "\/Date(1770583751237)\/",
+                             "Length":  3781
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\__pycache__\\blender_rpc_bridge.cpython-314.pyc",
+                             "LastWriteTime":  "\/Date(1770579806832)\/",
+                             "Length":  15621
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\.grepai\\index.gob",
+                             "LastWriteTime":  "\/Date(1770579732586)\/",
+                             "Length":  2071387
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\tests\\run-orchestrator-rpc.test.js",
+                             "LastWriteTime":  "\/Date(1770579608593)\/",
+                             "Length":  14559
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\protocolExecutor.js",
+                             "LastWriteTime":  "\/Date(1770579540882)\/",
+                             "Length":  2501
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\executors\\pythonExecutor.js",
+                             "LastWriteTime":  "\/Date(1770579536098)\/",
+                             "Length":  1598
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\executors\\gnOpsExecutor.js",
+                             "LastWriteTime":  "\/Date(1770579531514)\/",
+                             "Length":  6220
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\executors\\nodeTreeExecutor.js",
+                             "LastWriteTime":  "\/Date(1770579527164)\/",
+                             "Length":  6063
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\lib\\executorBridge.js",
+                             "LastWriteTime":  "\/Date(1770579519443)\/",
+                             "Length":  3895
+                         },
+                         {
+                             "FullName":  "C:\\Users\\Tyler\\Desktop\\Aether-Blender-Swarm\\server\\tests\\executor-gnops.test.js",
+                             "LastWriteTime":  "\/Date(1770579471147)\/",
+                             "Length":  4536
+                         }
+                     ]
+}

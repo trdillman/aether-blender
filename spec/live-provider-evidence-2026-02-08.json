@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-02-08T03:09:43.211Z",
+  "method": "GET /api/health via local server process",
+  "result": {
+    "ok": true,
+    "status": "ready",
+    "llm": {
+      "ok": true,
+      "provider": "anthropic",
+      "model": "GLM-4.7",
+      "message": "LLM provider ping succeeded."
+    }
+  },
+  "notes": [
+    "Live provider call succeeded end-to-end through server health check.",
+    "Node process emitted a Windows libuv assertion during shutdown in this environment; this occurred after the success payload was printed."
+  ]
+}

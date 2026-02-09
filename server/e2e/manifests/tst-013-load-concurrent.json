@@ -1,0 +1,43 @@
+{
+  "id": "tst_013_load_concurrent_runs",
+  "description": "TST-013 concurrent manifest baseline for load and throughput checks.",
+  "protocol": {
+    "version": "1.0",
+    "done": true,
+    "final_message": "TST-013 manifest run complete.",
+    "meta": {
+      "requires_gate_verification": false
+    },
+    "steps": [
+      {
+        "id": "python_start",
+        "type": "PYTHON",
+        "description": "Start marker for concurrent run",
+        "payload": {
+          "mode": "safe",
+          "code": "print('TST013_START')"
+        }
+      },
+      {
+        "id": "python_finish",
+        "type": "PYTHON",
+        "description": "Finish marker for concurrent run",
+        "payload": {
+          "mode": "safe",
+          "code": "print('TST013_DONE')"
+        }
+      }
+    ]
+  },
+  "assertions": {
+    "events": {
+      "requireEventTypes": [
+        "protocol_python"
+      ]
+    }
+  },
+  "options": {
+    "requireActiveRpcSession": false,
+    "timeoutMs": 120000
+  }
+}

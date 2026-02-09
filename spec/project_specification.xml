@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project_specification>
+  <project_name>GeoNode AI Assistant</project_name>
+
+  <overview>
+    A Blender addon that integrates LLM providers to create, edit, explain, and automate Geometry Nodes workflows.
+    The addon uses a strict JSON action protocol and can execute deterministic node graph operations and policy-gated Python actions.
+    It supports interactive chat runs and non-interactive batch execution.
+  </overview>
+
+  <technology_stack>
+    <technology>Python 3.10+</technology>
+    <technology>Blender API (bpy), Blender 4.0+ (targeting Blender 5.0 readiness)</technology>
+    <technology>Geometry Nodes API</technology>
+    <technology>Anthropic, OpenAI, Gemini, OpenAI-compatible endpoints</technology>
+    <technology>JSON Schema (protocol + presets)</technology>
+    <technology>Type hints + dataclasses</technology>
+    <technology>pytest + integration/e2e harness</technology>
+  </technology_stack>
+
+  <core_capabilities>
+    <capability>Natural language to Geometry Nodes generation and edits</capability>
+    <capability>Deterministic GN patch execution (GN_OPS)</capability>
+    <capability>Policy-gated Python scene automation</capability>
+    <capability>Context-aware planning (active object/modifier/tree/units)</capability>
+    <capability>Multi-step runs with strict done/final_message semantics</capability>
+    <capability>Verification gates before run completion</capability>
+    <capability>Preset save/load/import/export</capability>
+    <capability>Streaming events, telemetry, and local-first operation</capability>
+  </core_capabilities>
+
+  <implemented_features>
+    <feature>Specification set: product, architecture, protocol</feature>
+    <feature>Protocol includes NODE_TREE, GN_OPS, PYTHON action model</feature>
+    <feature>Gate enforcement model and context slicing requirements</feature>
+  </implemented_features>
+
+  <additional_requirements>
+    <requirement>Blender with Geometry Nodes support (4.0+)</requirement>
+    <requirement>Valid API key for selected provider (or local provider endpoint)</requirement>
+    <requirement>Network access for cloud providers</requirement>
+    <requirement>Local permissions for addon files, presets, and logs</requirement>
+  </additional_requirements>
+
+  <development_guidelines>
+    <guideline>Strict schema validation and versioned protocol</guideline>
+    <guideline>Separation of concerns: providers, protocol, executors, UI</guideline>
+    <guideline>Default-safe Python execution mode with explicit trusted opt-in</guideline>
+    <guideline>Deterministic node operations and minimal graph churn</guideline>
+    <guideline>Comprehensive logs/telemetry with secret redaction</guideline>
+    <guideline>Manifest-driven E2E tests for scene outcomes</guideline>
+  </development_guidelines>
+
+  <implementation_roadmap>
+    <phase>
+      <name>Foundations and Protocol Contracts</name>
+      <status>planned</status>
+      <description>Addon skeleton, strict schemas, run state machine, config model.</description>
+    </phase>
+    <phase>
+      <name>Provider Integration Layer</name>
+      <status>planned</status>
+      <description>Unified provider adapters with retry, timeout, and streaming normalization.</description>
+    </phase>
+    <phase>
+      <name>Execution Engine</name>
+      <status>planned</status>
+      <description>NODE_TREE + GN_OPS + PYTHON executors with artifact capture and cancellation.</description>
+    </phase>
+    <phase>
+      <name>Safety and Verification Gates</name>
+      <status>planned</status>
+      <description>Gate enforcement, destructive action confirmation, policy controls.</description>
+    </phase>
+    <phase>
+      <name>UI, Presets, Telemetry</name>
+      <status>planned</status>
+      <description>Chat panel, run timeline, preset manager, metrics dashboards.</description>
+    </phase>
+    <phase>
+      <name>Testing and Release Hardening</name>
+      <status>planned</status>
+      <description>Unit/integration/E2E suite, soak tests, packaging and release gates.</description>
+    </phase>
+  </implementation_roadmap>
+</project_specification>

@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"]
+    },
+    "nfty": {
+      "command": "npx",
+      "args": ["-y", "--yes", "nfty-mcp-server"],
+      "env": {
+        "NTFY_TOPIC": "aether-blender-tyler",
+        "NTFY_BASE_URL": "https://ntfy.sh"
+      }
+    }
+  }
+}

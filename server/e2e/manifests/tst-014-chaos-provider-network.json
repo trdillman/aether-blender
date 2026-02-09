@@ -1,0 +1,34 @@
+{
+  "id": "tst_014_chaos_provider_network_faults",
+  "description": "TST-014 chaos baseline manifest for injected provider/network failures and recovery.",
+  "protocol": {
+    "version": "1.0",
+    "done": true,
+    "final_message": "TST-014 manifest run complete.",
+    "meta": {
+      "requires_gate_verification": false
+    },
+    "steps": [
+      {
+        "id": "python_fault_probe",
+        "type": "PYTHON",
+        "description": "Probe run path for chaos fault injection",
+        "payload": {
+          "mode": "safe",
+          "code": "print('TST014_CHAOS_PROBE')"
+        }
+      }
+    ]
+  },
+  "assertions": {
+    "events": {
+      "requireEventTypes": [
+        "protocol_python"
+      ]
+    }
+  },
+  "options": {
+    "requireActiveRpcSession": false,
+    "timeoutMs": 120000
+  }
+}

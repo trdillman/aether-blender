@@ -1,0 +1,14 @@
+{
+  "name": "aether-server",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "test:release": "node --test \"tests/protocol-handshake.test.js\" \"tests/settings-validation.test.js\" \"tests/preset-api.test.js\" \"tests/metrics-exporter.test.js\"",
+    "test:manifest-e2e": "node scripts/run-manifest-e2e.js --manifest e2e/manifests/tst-011-node-tree-cube.json",
+    "test:manifest-soak": "node scripts/run-manifest-soak.js --manifest e2e/manifests/tst-012-soak-50-prompts.json --iterations 50",
+    "test:manifest-load": "node scripts/run-manifest-load.js --manifest e2e/manifests/tst-013-load-concurrent.json --total-runs 40 --concurrency 8",
+    "test:manifest-chaos": "node scripts/run-manifest-chaos.js --manifest e2e/manifests/tst-014-chaos-provider-network.json"
+  }
+}
